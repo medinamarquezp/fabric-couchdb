@@ -2,7 +2,7 @@
 
 This Hyperledger Fabric network consists of the following components:
 
-- 2 peer nodes.
+- 2 peer nodes, whose ledgers use couchdb.
 - 1 Raft orderer node.
 - All nodes have their own CA.
 

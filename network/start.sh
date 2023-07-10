@@ -31,5 +31,5 @@ function registerNodes() {
 
 function startNetwork() {
     echo 'Starting all network nodes'
-    docker-compose -f ./docker/docker-compose-network.yaml up -d
+    docker-compose -f ./docker/docker-compose-network.yaml -f ./docker/docker-compose-couchdb.yaml up -d
 }
