@@ -19,4 +19,5 @@ export FABRIC_CFG_PATH=${PWD}/../config
 . ./start.sh && startCAs
 . ./start.sh && registerNodes
 . ./start.sh && startNetwork
+. ./start.sh && startGeneralChannel
 ```
